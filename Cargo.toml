@@ -1,5 +1,5 @@
 [package]
-name = "rot"
+name = "rotate"
 version = "0.1.0"
 authors = ["Takanari Fukaya <takafridge09@gmail.com>"]
 edition = "2018"
