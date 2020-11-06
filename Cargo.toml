@@ -1,0 +1,20 @@
+[package]
+name = "rot"
+version = "0.1.0"
+authors = ["Takanari Fukaya <takafridge09@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+chrono = "0.4.19"
+clap = "3.0.0-beta.2"
+humantime = "2.0.1"
+
+[[bin]]
+name = "rot"
+path = "src/main.rs"
+
+[[bin]]
+name = "roterr"
+path = "src/roterr-main.rs"
